@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/png" href="images/Kicon.png" />
+    <title>The Characters of Yakuza</title>
+  </head>
+  <body>
+    <div class="columnLeft">
+      <div class="box1 bgImg Kamo center-content" onclick="addKiryu()">
+        <img
+          src="images/Kiryu.png.png"
+          class="clickable1"
+          onclick="kiryuText(), playSfx()"
+        />
+        <audio src="sfx/Kiryu_sfx.mp3" type="audio/mp3" id="Moshi"></audio>
+      </div>
+      <div class="box1 bgImg Tower center-content" onclick="addNishiki()">
+        <img
+          src="images/Nishiki.png"
+          class="clickable1"
+          onclick="nishikiText(), playSfx3()"
+        />
+        <audio src="sfx/Nishiki_sfx.mp3" type="audio/mp3" id="Haha"></audio>
+      </div>
+      <div class="box1 bgImg Yacht center-content" onclick="addKazama()">
+        <img
+          src="images/Kazama.png"
+          class="clickable1"
+          onclick="kazamaText(), playSfx4()"
+        />
+        <audio src="sfx/Kazama_sfx.mp3" type="audio/mp3" id="Bullet"></audio>
+      </div>
+    </div>
+    <div class="columnMiddle">
+      <div class="boxTop center-content" id="INFO">
+        <img src="images/Yakuza_badge.png" id="DRBOX" />
+      </div>
+      <div class="boxBottom bottom center-content">
+        <img src="images/KiryuFULL.png" class="clickable2" id="Yakuza" />
+        <audio src="sfx/FULL.mp3" type="audio/mp3" id="FULL"></audio>
+      </div>
+    </div>
+    <div class="columnMiddle2">
+      <div class="box1 bgImg Kamo center-content" onclick="addKiryu()">
+        <img
+          src="images/Kiryu.png.png"
+          class="clickable1"
+          onclick="kiryuText(), playSfx()"
+        />
+        <audio src="sfx/Kiryu_sfx.mp3" type="audio/mp3" id="Moshi"></audio>
+      </div>
+      <div class="box1 bgImg Tower center-content" onclick="addNishiki()">
+        <img
+          src="images/Nishiki.png"
+          class="clickable1"
+          onclick="nishikiText(), playSfx3()"
+        />
+        <audio src="sfx/Nishiki_sfx.mp3" type="audio/mp3" id="Haha"></audio>
+      </div>
+      <div class="box1 bgImg Yacht center-content" onclick="addKazama()">
+        <img
+          src="images/Kazama.png"
+          class="clickable1"
+          onclick="kazamaText(), playSfx4()"
+        />
+        <audio src="sfx/Kazama_sfx.mp3" type="audio/mp3" id="Bullet"></audio>
+      </div>
+    </div>
+    <div class="columnRight dark-grey">
+      <div class="box1 bgImg Son center-content" onclick="addMajima()">
+        <img
+          src="images/majima.png"
+          class="clickable1"
+          onclick="majimaText(), playSfx2()"
+        />
+        <audio src="sfx/Majima_sfx.mp3" type="audio/mp3" id="KiryuChan"></audio>
+      </div>
+      <div class="box1 bgImg Ban center-content" onclick="addHaruka()">
+        <img
+          src="images/haruka.png"
+          class="clickable1"
+          onclick="harukaText(), playSfx5()"
+        />
+        <audio src="sfx/Haruka_sfx.mp3" type="audio/mp3" id="Yay"></audio>
+      </div>
+      <div class="box1 bgImg Tojo center-content" onclick="addShimano()">
+        <img
+          src="images/shimano.png"
+          class="clickable1"
+          onclick="shimanoText(), playSfx6()"
+        />
+        <audio src="sfx/Shimano_sfx.mp3" type="audio/mp3" id="Easter"></audio>
+      </div>
+    </div>
+    <div class="rowBottom grey">
+      <div class="row1 grey">
+        <div class="box1 bgImg Kamo center-content" onclick="addKiryu()">
+          <img
+            src="images/Kiryu.png.png"
+            class="clickable1"
+            onclick="kiryuText(), playSfx()"
+          />
+          <audio src="sfx/Kiryu_sfx.mp3" type="audio/mp3" id="Moshi"></audio>
+        </div>
+        <div class="box1 bgImg Tower center-content" onclick="addNishiki()">
+          <img
+            src="images/Nishiki.png"
+            class="clickable1"
+            onclick="nishikiText(), playSfx3()"
+          />
+          <audio src="sfx/Nishiki_sfx.mp3" type="audio/mp3" id="Haha"></audio>
+        </div>
+        <div class="box1 bgImg Yacht center-content" onclick="addKazama()">
+          <img
+            src="images/Kazama.png"
+            class="clickable1"
+            onclick="kazamaText(), playSfx4()"
+          />
+          <audio src="sfx/Kazama_sfx.mp3" type="audio/mp3" id="Bullet"></audio>
+        </div>
+      </div>
+      <div class="row2 dark-grey">
+        <div class="box1 bgImg Son center-content" onclick="addMajima()">
+          <img
+            src="images/majima.png"
+            class="clickable1"
+            onclick="majimaText(), playSfx2()"
+          />
+          <audio
+            src="sfx/Majima_sfx.mp3"
+            type="audio/mp3"
+            id="KiryuChan"
+          ></audio>
+        </div>
+        <div class="box1 bgImg Ban center-content" onclick="addHaruka()">
+          <img
+            src="images/haruka.png"
+            class="clickable1"
+            onclick="harukaText(), playSfx5()"
+          />
+          <audio src="sfx/Haruka_sfx.mp3" type="audio/mp3" id="Yay"></audio>
+        </div>
+        <div class="box1 bgImg Tojo center-content" onclick="addShimano()">
+          <img
+            src="images/shimano.png"
+            class="clickable1"
+            onclick="shimanoText(), playSfx6()"
+          />
+          <audio src="sfx/Shimano_sfx.mp3" type="audio/mp3" id="Easter"></audio>
+          <audio src="music/JUDGE.mp3" type="audio/mp3" id="JUDGE"></audio>
+          <audio src="music/KAZAMA.mp3" type="audio/mp3" id="KAZ"></audio>
+          <audio src="music/HARUKA.mp3" type="audio/mp3" id="HAR"></audio>
+          <audio src="music/SHIMANO.mp3" type="audio/mp3" id="SHI"></audio>
+          <audio src="music/24.mp3" type="audio/mp3" id="24"></audio>
+          <audio src="music/MITAI.mp3" type="audio/mp3" id="MIT"></audio>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
